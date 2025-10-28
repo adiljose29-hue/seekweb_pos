@@ -1,0 +1,69 @@
+seekweb_pos/
+│
+├── main.py
+├── config.ini
+├── requirements.txt
+│
+├── core/
+│   ├── __init__.py
+│   ├── database.py
+│   ├── config.py
+│   └── logger.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── usuario.py
+│   ├── produto.py
+│   ├── venda.py
+│   ├── cliente.py
+│   └── caixa.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── impressora.py
+│   ├── scanner.py
+│   ├── calculos.py
+│   └── audio.py
+│
+├── gui/
+│   ├── __init__.py
+│   ├── login.py
+│   ├── vendas.py
+│   ├── admin.py
+│   └── componentes.py
+│
+└── recursos/
+    ├── sons/
+    ├── recibos/
+    └── logs/
+
+
+
+seekweb_pos/
+├── main.py
+├── setup.py
+├── test_system.py
+├── schema.sql
+├── config.ini
+├── requirements.txt
+├── core/
+│   ├── database.py
+│   ├── config.py
+│   └── logger.py
+├── models/
+│   ├── usuario.py
+│   ├── produto.py
+│   ├── venda.py
+│   └── cliente.py
+├── utils/
+│   ├── impressora.py
+│   ├── scanner.py
+│   ├── calculos.py
+│   └── audio.py
+├── gui/
+│   ├── login.py
+│   ├── vendas.py
+│   └── admin.py
+├── recibos/ (criado automaticamente)
+├── logs/ (criado automaticamente)
+└── sons/ (criado automaticamente)
